@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       className="max-container border border-red-600 
-    padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 border-3 lg:py-20 xl:flex-row"
+    padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 border-3 relative6 lg:py-20 xl:flex-row"
     >
       <div className="hero-map" />
       {/* LEFT */}
@@ -54,19 +54,21 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="relative flex flex-1 items-start">
-        <div className="realtive z-20 flex  w-[268] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
-          <div className="flex fle-xcol">
-            <div className="flex items-center justify-between ">
+      <div className="relative flex flex-1  border border-amber-300  items-start">
+        <div className="realtive z-20 flex  border border-red-600 w-[230px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+          <div className="flex flex-col ">
+            <div className="flex items-center justify-between   ">
               <p className="regular-16 text-gray-20">Location</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
+
             <p className="bold-20 text-white">Aguas Calientes</p>
           </div>
 
-          <div className="flexBetween">
-            <p className="bold-20 block text-white">Aguas Calientes</p>
-
+          <div
+            className="flex items-center justify-between
+           "
+          >
             <div className="flex flex-col">
               <p className="regular-16 block text-gray-20">Distance</p>
               <p className="text-white">173.28 mi</p>
