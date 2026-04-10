@@ -5,8 +5,8 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className=" border-2  border-red-500 flex items-center justify-center flex-col py-24 bg-feature-bg bg-center bg-no-repeat  ">
-      <div className="mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 relative border border-black w-full flex  justify-end">
+    <section className=" -2  -red-500 flex items-center justify-center flex-col py-24 bg-feature-bg bg-center bg-no-repeat  ">
+      <div className="mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 relative  -black w-full flex  justify-end">
         <div className="flex flex-1  xl:overflow-hidden lg:min-h-[900px]">
           <Image
             src="/phone.png"
@@ -24,13 +24,11 @@ const Features = () => {
               alt="camp"
               width={50}
               height={50}
-              className="absolute left-[-5px] top-[-28px] w-10  lg:w-[50px] border border-red-500 "
+              className="absolute left-[-5px] top-[-28px] w-10  lg:w-[50px]  -red-500 "
             />
-            <h2 className="  border border-green-400 bold-40 lg:bold-64 ">
-              Our Features
-            </h2>
+            <h2 className="   -green-400 bold-40 lg:bold-64 ">Our Features</h2>
           </div>
-          <ul className="mt-10 border border-yellow-50 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap20">
+          <ul className="mt-10  -yellow-50 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap20">
             {FEATURES.map((feature) => (
               <FeatureItem
                 key={feature.title}
@@ -55,7 +53,7 @@ type FeatureIcon = {
 
 const FeatureItem = ({ title, icon, description }: FeatureIcon) => {
   return (
-    <li className="flex border border-blue-700 w-full  flex-1 flex-col items-start">
+    <li className="flex  -blue-700 w-full  flex-1 flex-col items-start">
       <div className="bg-green-50 rounded-full p-4 lg:p-7 ">
         <Image src={icon} alt="map" width={28} height={28} />
       </div>

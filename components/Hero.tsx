@@ -5,8 +5,8 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <section
-      className="max-container border border-red-600 
-    padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 border-3 relative6 lg:py-20 xl:flex-row"
+      className="max-container  -red-600 
+    padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 -3 relative6 lg:py-20 xl:flex-row"
     >
       <div className="hero-map" />
       {/* LEFT */}
@@ -54,8 +54,8 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="relative flex flex-1  border border-amber-300  items-start">
-        <div className="realtive z-20 flex  border border-red-600 w-[230px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+      <div className="relative flex flex-1   -amber-300  items-start">
+        <div className="realtive z-20 flex   -red-600 w-[230px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
           <div className="flex flex-col ">
             <div className="flex items-center justify-between   ">
               <p className="regular-16 text-gray-20">Location</p>
